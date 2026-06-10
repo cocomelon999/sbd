@@ -6,7 +6,7 @@ def connect_db():
             host="localhost",
             user="root",
             password="",
-            database="sistem_sewa_lapangan"
+            database="sistem_sewa_lapangan" # sesuaikan dengan nama database sql masing2
         )
         return conn
 
